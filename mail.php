@@ -8,7 +8,8 @@
 
 $method = $_SERVER['REQUEST_METHOD'];
 
-//Script Foreach
+//Script Foreach 
+// 2 SECRETCODE+ 1 form email
 $c = true;
 if ( $method === 'POST' ) {
 

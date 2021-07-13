@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
 	
 	 grecaptcha.ready(function() {
 	     
-	     grecaptcha.execute('PIBLIC CODE', {action: 'contact'}).then(function(token) {
+	   /*CODE HERE*/  grecaptcha.execute('PIBLIC CODE', {action: 'contact'}).then(function(token) {
 	         
 	         
 	   $("form").submit(function() { //Change
