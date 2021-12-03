@@ -6,7 +6,7 @@ Index.html has example of using this form on page.
 
 Installation form with recaptcha
 ------------
-Add this code to header with your public recaptcha token 
+Add this code to header with your public recaptcha token, dont add it if you won't use it.
 
 <script src="https://www.google.com/recaptcha/api.js?render=PUBLIC-CODE"></script>
 
