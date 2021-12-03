@@ -12,21 +12,21 @@ Add this code to header with your public recaptcha token, dont add it if you won
 
 And add this form to any place you need.
 
-<form>
 
 		<!-- Hidden Required Fields -->
-		<input type="hidden" name="project_name" value="Site Name">
-		<input type="hidden" name="admin_email" value="admin@mail.com">
-		<input type="hidden" name="form_subject" value="Form Subject">
-		<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
-		<!-- END Hidden Required Fields -->
+		<form>
+			<input type="hidden" name="project_name" value="Site Name">
+			<input type="hidden" name="admin_email" value="admin@mail.com">
+			<input type="hidden" name="form_subject" value="Form Subject">
+			<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+			<!-- END Hidden Required Fields -->
 
-		<input type="text" name="Name" placeholder="You name..." required><br>
-		<input type="text" name="E-mail" placeholder="You E-mail..." required><br>
-		<input type="text" name="Phone" placeholder="You phone..."><br>
-		<button>Send</button>
-
-	</form>
+			<input type="text" name="Name" placeholder="You name..." required><br>
+			<input type="text" name="E-mail" placeholder="You E-mail..." required><br>
+			<input type="text" name="Phone" placeholder="You phone..."><br>
+			<button>Send</button>
+		</form>
+	
   
   
  Hidden fields are required, update site name, admin email and form subject. All other fields form will send automatically, you just need to update input name. It doesnt have limit of inputs.
