@@ -97,7 +97,7 @@ $message = "<table style='width: 100%;'>$message</table>";
 function adopt($text) {
 	return '=?UTF-8?B?'.Base64_encode($text).'?=';
 }
-
+// Headers of email, update admin@domain to email from where form will send emails. Can use any, no need to register
 $headers = "MIME-Version: 1.0" . PHP_EOL .
 "Content-Type: text/html; charset=utf-8" . PHP_EOL .
 'From: '.adopt($project_name). "<admin@domain>" . PHP_EOL .
