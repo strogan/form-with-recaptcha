@@ -32,6 +32,7 @@ And add this form to any place you need.
  Hidden fields are required, update site name, admin email and form subject. All other fields form will send automatically, you just need to update input name. It doesnt have limit of inputs.
  
  On mail.php need to add secret recaptcha token and email from where emails will code. Like this email admin@domain.com.
+ Connect sctipt.js on page or paste code to your scripts. 
  script.js needs public key only. Paste all code, if you dont need recaptcha, paste code inside /*  Form start  */  except 2 lines
  
  
