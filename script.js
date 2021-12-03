@@ -3,22 +3,20 @@ jQuery(document).ready(function($) {
 
 	//E-mail Ajax Send
 	
+
 	
-	
-	
-	
-	
-	 grecaptcha.ready(function() {
-	     
-	   /*CODE HERE*/  grecaptcha.execute('PIBLIC CODE', {action: 'contact'}).then(function(token) {
+	 grecaptcha.ready(function() {	     
+	   /*CODE HERE*/  grecaptcha.execute('PUBLIC CODE HERE', {action: 'contact'}).then(function(token) {
 	         
-	         
+	   /*  Form start  */      
 	   $("form").submit(function() { //Change
 	   
 	   
-	   
-	    var recaptchaResponse = document.getElementById('recaptchaResponse');
-      recaptchaResponse.value = token;
+	 /* If recaptcha is not needed remove this 2 lines */  
+	var recaptchaResponse = document.getElementById('recaptchaResponse');
+        recaptchaResponse.value = token;
+		   
+		   
 	    
 		var th = $(this);
 		$.ajax({
@@ -38,16 +36,10 @@ jQuery(document).ready(function($) {
 		
 	
 	
-	
-	     }); 
-
-	
-		
+	/*  Form end  */
+	     });		
 	});
 	
-
-
-
 
 
 });
